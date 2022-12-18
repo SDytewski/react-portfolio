@@ -4,52 +4,26 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 
 
+
+
 function Header(){
     return(
-      <header id="masthead" class="p-3 mb-2 bg-light">
-
-      <div class="container">
-        {/* <!--Navigation--> */}
-  
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              {/* <!-- <li class="nav-item">
-                <a class="nav-link" href="index.html">STEVEN DYTEWSKI <span class="sr-only">(current)</span></a>
-              </li> --> */}
-              <li class="nav-item">
-                <a class="nav-link" href="index.html">HOME</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="portfolio.html">PORTFOLIO</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contact.html">CONTACT</a>
-  
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="https://www.linkedin.com/in/steven-dytewski/" target="_blank">LINKEDIN</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="https://github.com/SDytewski?tab=repositories" target="_blank">GITHUB</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link"
-                  href="https://drive.google.com/file/d/1mcWH1cB91Ff0J_AenFrJgAwIQJe1gay3/view?usp=sharing"
-                  target="_blank">RESUMÉ</a>
-              </li>
-  
-            </ul>
-          </div>
-        </nav>
-      </div>        
-    </header>
-    )
+      <Navbar bg="light" expand="lg">
+      <Container>
+        <Navbar.Brand href="#home">Hammer</Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav">
+          <Nav className="me-auto">
+            <Nav.Link href="index.html">Home</Nav.Link>
+            <Nav.Link href="portfolio.html">Portfolio</Nav.Link>
+            <Nav.Link href="contact.html">Contact</Nav.Link>
+            <Nav.Link href="https://www.linkedin.com/in/steven-dytewski/" target="_blank">LinkedIn</Nav.Link>
+            <Nav.Link href="https://github.com/SDytewski?tab=repositories" target="_blank">Github</Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
+  );
 }
 
 export default Header;
