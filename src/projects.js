@@ -4,7 +4,7 @@ const projects = [
 
   _id: '1',
   name: 'Test 1',
-  image: '/images/wall.png',
+  image: '/images/blondehero.jpg',
   text: 'Lorem upssum',
   },
 
@@ -12,14 +12,14 @@ const projects = [
 
     _id: '2',
     name: 'Test 2',
-    image: '/images/wall.png',
+    image: '/images/california.jpeg',
     text: 'Lorem upssum',
     },
     {
 
       _id: '3',
       name: 'Test 3',
-      image: '/images/wall.png',
+      image: '/images/home.jpg',
       text: 'Lorem upssum',
       },
 
