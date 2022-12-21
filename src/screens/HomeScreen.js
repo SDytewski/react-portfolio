@@ -8,9 +8,9 @@ const HomeScreen = () => {
         <>
             <h1>Latest Projects</h1>
             <Row>
-                {projects.map((projects) => (
+                {projects.map((project) => (
                     <Col sm={12} md={6} lg={4} xl={3}>
-                        <h3>{projects.name}</h3>
+                       <Project project={project} />
                     </Col>
                 ))}
             </Row>
