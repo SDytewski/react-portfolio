@@ -3,24 +3,24 @@ const projects = [
   {
 
   _id: '1',
-  name: 'Test 1',
+  name: 'MA Taylor',
   image: '/images/blondehero.jpg',
-  text: 'Lorem upssum',
+  text: 'Wordpress, WooCommerce, Custom Theme, CSS, JavaScript,',
   },
 
   {
 
     _id: '2',
-    name: 'Test 2',
+    name: 'California Counties',
     image: '/images/california.jpeg',
-    text: 'Lorem upssum',
+    text: 'JavaScript, Jquery, CSS, Wikipedia API',
     },
     {
 
       _id: '3',
-      name: 'Test 3',
+      name: 'Westwood Real Estate',
       image: '/images/home.jpg',
-      text: 'Lorem upssum',
+      text: 'Wordpress, Google Map API, CSS',
       },
 
 ]

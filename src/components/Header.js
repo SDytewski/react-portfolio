@@ -9,7 +9,7 @@ import Navbar from 'react-bootstrap/Navbar';
 
 function Header(){
     return(
-      <Navbar bg="light" expand="lg">
+      <Navbar className="color-nav" expand="lg">
       <Container>
         <Navbar.Brand href="#home">Hammer</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
