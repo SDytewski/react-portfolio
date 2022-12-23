@@ -1,13 +1,13 @@
 import React from 'react'
 import { Card } from 'react-bootstrap'
 
-const Project = ({ project }) => {
+const Project = ({ project, hello, goodbye }) => {
     return (
         <Card className='my-3 p-3 rounded'>
             <a href={`/project/${project._id}`}>
                  <Card.Img src={project.image} variant='top' />
             </a>
-        
+       
         <Card.Body>
             <a href={`/project/${project._id}`}>
                 <Card.Title as='div'>
