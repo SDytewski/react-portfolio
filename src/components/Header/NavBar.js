@@ -7,20 +7,36 @@ import Navbar from 'react-bootstrap/Navbar';
 
 
 
-function Header(){
-    return(
-      <Navbar className="color-nav" expand="lg">
+function Header() {
+  return (
+    <Navbar className="color-nav" expand="lg">
       <Container>
-        <Navbar.Brand href="#home">Hammer</Navbar.Brand>
+        <Navbar.Brand href="#home">
+          <img src={''} alt="Logo" />
+        
+        </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <span className="navbar-toggler-icon"></span>
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="index.html">Home</Nav.Link>
+            <Nav.Link href="#home">Home</Nav.Link>
+            <Nav.Link href="#skills">Skills</Nav.Link>
+            <Nav.Link href="#projects">Projectss</Nav.Link>
+
             <Nav.Link href="portfolio.html">Portfolio</Nav.Link>
             <Nav.Link href="contact.html">Contact</Nav.Link>
             <Nav.Link href="https://www.linkedin.com/in/steven-dytewski/" target="_blank">LinkedIn</Nav.Link>
             <Nav.Link href="https://github.com/SDytewski?tab=repositories" target="_blank">Github</Nav.Link>
           </Nav>
+          <span className="navbar-text">
+
+            <div className="social-icon">
+              <a href="#"><img src={} alt="" /></a>
+              <a href="#"><img src={} alt="" /></a>
+              <a href="#"><img src={} alt="" /></a>
+            </div>
+          </span>
+          
         </Navbar.Collapse>
       </Container>
     </Navbar>
