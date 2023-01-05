@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import { useState} from 'react';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
@@ -8,6 +9,8 @@ import Navbar from 'react-bootstrap/Navbar';
 
 
 function Header() {
+  const {activeLink, setActiveLink } = useState('home');
+  const {scolled, setScolled } = useState(false);
   return (
     <Navbar className="color-nav" expand="lg">
       <Container>
@@ -31,10 +34,11 @@ function Header() {
           <span className="navbar-text">
 
             <div className="social-icon">
-              <a href="#"><img src={} alt="" /></a>
-              <a href="#"><img src={} alt="" /></a>
-              <a href="#"><img src={} alt="" /></a>
+              <a href="#"><img src={''} alt="" /></a>
+              <a href="#"><img src={''} alt="" /></a>
+              <a href="#"><img src={''} alt="" /></a>
             </div>
+            <button className="vvd" onClick={() => console.log('connect')}><span>Let's Connect</span></button>
           </span>
           
         </Navbar.Collapse>
