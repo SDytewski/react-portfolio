@@ -1,9 +1,7 @@
-import React from 'react';
 import { useState} from 'react';
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
-// import NavDropdown from 'react-bootstrap/NavDropdown';
+import { Navbar, Container }  from 'react-bootstrap';
+
+import NavDropdown from 'react-bootstrap/NavDropdown';
 
 export const Navbar = () => {
 const {activeLink, setActiveLink } = useState('home');
@@ -26,6 +24,9 @@ useEffect(() => {
 
 // function Header() {
 
+const onUpdateActiveLink = (value) => {
+  setActiveLink(value);
+}
 
  return (
     <Navbar expand="lg" className={scrolled ? "scrolled": ""}>
@@ -39,8 +40,8 @@ useEffect(() => {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link href="#home" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link' } onClick={() => onUpdateActiveLink('home')}>Home</Nav.Link>
-            <Nav.Link href="#skills" className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link' }>Skills</Nav.Link>
-            <Nav.Link href="#projects" <Nav.Link href="#skills" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link' }>Projects</Nav.Link>
+            <Nav.Link href="#skills" className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link' } onClick={() => onUpdateActiveLink('skills')}>Skills</Nav.Link>
+            <Nav.Link href="#projects" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link' } onClick={() => onUpdateActiveLink('projects')}>Projects</Nav.Link>
 
             <Nav.Link href="portfolio.html">Portfolio</Nav.Link>
             <Nav.Link href="contact.html">Contact</Nav.Link>
