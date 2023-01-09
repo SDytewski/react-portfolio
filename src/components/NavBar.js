@@ -1,14 +1,14 @@
-import { useState} from 'react';
-import { Navbar, Container }  from 'react-bootstrap';
+import { useState, useEffect } from 'react';
+import { Navbar, Nav, Container }  from 'react-bootstrap';
 
 import NavDropdown from 'react-bootstrap/NavDropdown';
 
-export const Navbar = () => {
+export const NavBar = () => {
 const {activeLink, setActiveLink } = useState('home');
 const {scrolled, seSrcolled } = useState(false);
 
 useEffect(() => {
-  const onScroll = () {}
+  const onScroll = () => {
     if  (window.scrollY > 50) {
       seSrcolled(true);
     } else {
@@ -16,13 +16,12 @@ useEffect(() => {
       seSrcolled(false);
 
     }
-
+  }
     window.addEventListener("scroll", onScroll);
 
     return () => window.removeEventListener("scroll", onScroll)
 }, [])
 
-// function Header() {
 
 const onUpdateActiveLink = (value) => {
   setActiveLink(value);
@@ -63,6 +62,4 @@ const onUpdateActiveLink = (value) => {
     </Navbar>
   );
 }
-
-export default Header;
 

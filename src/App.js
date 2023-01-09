@@ -1,6 +1,7 @@
 import './App.css';
 import { Container } from 'react-bootstrap'
-import Navbar from './components/Header/NavBar';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { NavBar } from "./components/NavBar";
 import Footer from './components/Footer';
 import HomeScreen from './screens/HomeScreen'
 
@@ -8,7 +9,7 @@ function App() {
 
   return (
     <div className="App">
-      <Navbar />
+      <NavBar />
         <Container>
           <HomeScreen />
         </Container>
