@@ -43,7 +43,7 @@ body {
 
 }
 
-h1, h2, h3, h4, h5. h6 {
+h1, h2, h3, h4, h5, h6 {
   margin: 0;
   padding: 0;
   line-height: normal;
@@ -56,6 +56,7 @@ nav.navbar {
   top: 0;
   z-index: 9999;
   transition: 0.32 ease-in-out;
+  background-color: #121212;
 }
 
 nav.navbar.scrolled {
@@ -92,7 +93,7 @@ span.navbar-text {
   margin-left: 14px;
 }
 
-.social-con a {
+.social-icon a {
   width: 42px;
   height: 42px;
   background: rgba(217, 217, 217, 0.1);
