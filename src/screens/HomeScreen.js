@@ -1,5 +1,5 @@
 import { Row, Col } from 'react-bootstrap'
-import Project from '../components/Project'
+import Project from '../components/Projects'
 import projects from '../projects'
 // import './HomeScreen.css'
 
