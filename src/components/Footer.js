@@ -1,12 +1,30 @@
 import React from 'react'
 import Card from 'react-bootstrap/Card';
+import { Container, Row, Col } from "react-bootstrap";
+import navIcon1 from "../assets/img/nav-icon1.svg";
+import navIcon2 from "../assets/img/nav-icon2.svg";
+import navIcon3 from "../assets/img/nav-icon3.svg";
 
-function Footer() {
-    return (
-        <Card >
-            <Card.Body className="footer-body">This is some text within a card body.</Card.Body>
-        </Card>
-    )
+export const Footer = () => {
+  return (
+    <footer className="footer pt-3">
+      <Container>
+        <Row className="align-items-center justify-content-md-center">
+         
+          <Col size={12} sm={12} className="text-center align-items-center">
+            <div className="social-icon p-3">
+              <a href="#"><img src={navIcon1} alt="Icon" /></a>
+              <a href="#"><img src={navIcon2} alt="Icon" /></a>
+              <a href="#"><img src={navIcon3} alt="Icon" /></a>
+            </div>
+            <p className="text-center pt-3 pb-3">Copyright 2023. All Rights Reserved</p>
+          </Col>
+        </Row>
+      </Container>
+    </footer>
+  )
 }
+
+
 
 export default Footer

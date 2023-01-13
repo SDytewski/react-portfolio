@@ -38,7 +38,7 @@ const projects = [
   
 
   return (
-    <section className="project" id="projects">
+    <section className="project pt-5 pb-5" id="projects">
       <Container>
         <Row>
           <Col size={12}>
