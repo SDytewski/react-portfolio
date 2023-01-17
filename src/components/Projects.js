@@ -1,10 +1,18 @@
 import React from 'react'
+import { useCallback, useState } from 'react';
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
+import Particles from 'react-tsparticles';
+import { loadFull } from "tsparticles";
+
 
 export const Projects = () => {
+
+  const init = useCallback(async (engine) => {
+    await loadFull(engine)
+  })
 
 const projects = [
 
@@ -40,6 +48,7 @@ const projects = [
   return (
     <section className="project pt-5 pb-5" id="projects">
       <Container>
+        <Particles options={{}} init={init}/>
         <Row>
           <Col size={12}>
              <TrackVisibility>
