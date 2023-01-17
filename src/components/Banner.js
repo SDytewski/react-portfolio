@@ -13,15 +13,15 @@ export const Banner = () => {
     const [index, setIndex] = useState(1);
     const toRotate = [  "Web Developer", "UI/UX developer", "Front-End Developer" ];
     const period = 2000;
-
+    const [number, setNumber] = useState(0);
+    
     useEffect(() => {
         let ticker = setInterval(() => {
           tick();
         }, delta);
-
         return () => { clearInterval(ticker) };
-    }, [text])
-
+      }, [text])
+   
     const tick = () => {
         let i = loopNum % toRotate.length;
         let fullText = toRotate[i];
@@ -46,7 +46,16 @@ export const Banner = () => {
             setIndex(prevIndex => prevIndex + 1);
           }
         }
-      
+    
+        const increase = () => {
+          setNumber(number+1)
+        }
+
+        function decrease(){
+          setNumber(number-1)
+        }
+
+       
     
     return (
         <section className="banner mt-5 mb-5 pt-5 pb-5" id="home">
@@ -57,14 +66,17 @@ export const Banner = () => {
                             Steven Dytewski
                         </span>
                         <h1>{`Hi! I'm Steve `} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "UI/UX developer", "Front-End Developer" ]'><span className="wrap">{text}</span></span></h1>
-                  <p>I'm a web developer that specializes in UI/UX development for all kinds of devices. Experience includes working with projects with cross browser functionality for devices in different. I have certifcation in Full Stack Web Development using Front-end Technologies.</p>
+                  <p>I'm a web developer that specializes in UI/UX development for all kinds of devices. Experience includes working with projects with cross browser functionality for devices. I have certifcation in Full Stack Web Development using Front-end Technologies.</p>
                   <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
                         </Col>
                         <Col className="pt-5" xs={12} md={3} xl={3}>
                         <img src={headerImg} alt="Header Img"/>
                         </Col>
                 </Row>
-
+          {number}
+            <button onClick={increase}>Increase</button>
+            <button onClick={() => decrease()}>Decrease</button>
+            
             </Container>
 
         </section>

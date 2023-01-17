@@ -344,12 +344,15 @@ min-height: 150px;
 }
 .banner button {
   color: #fff;
+  background-color: #1b1b1b !important;
+  border-color: #fff;
   font-weight: 700;
   font-size: 20px;
   margin-top: 60px;
   letter-spacing: 0.8px;
   display: flex;
   align-items: center;
+  padding: 7px;
 }
 .banner button svg {
   font-size: 25px;

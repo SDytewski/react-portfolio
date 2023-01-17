@@ -42,15 +42,15 @@ const projects = [
       <Container>
         <Row>
           <Col size={12}>
-            <TrackVisibility>
+             <TrackVisibility>
               {({ isVisible }) =>
-              <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
+              <div>
                 <h2 className="text-center">Projects</h2>
                 <p  className="text-center">I specialize in React and JavaScript, but I've creatd projects using Ruby on Rails and Wordpress</p>
-                <Tab.Container id="projects-tabs" defaultActiveKey="first">
+               {/* <Tab.Container id="projects-tabs" defaultActiveKey="first">
                   
-                  <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
-                    <Tab.Pane eventKey="first">
+                  <Tab.Content id="slideInUp" >
+                    <Tab.Pane eventKey="first"> */}
                       <Row>
                         {
                           projects.map((project, index) => {
@@ -63,7 +63,7 @@ const projects = [
                           })
                         }
                       </Row>
-                    </Tab.Pane>
+                    {/* </Tab.Pane>
                     <Tab.Pane eventKey="section">
                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
                     </Tab.Pane>
@@ -71,9 +71,9 @@ const projects = [
                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
                     </Tab.Pane>
                   </Tab.Content>
-                </Tab.Container>
+                </Tab.Container> */}
               </div>}
-            </TrackVisibility>
+            </TrackVisibility> 
           </Col>
         </Row>
       </Container>

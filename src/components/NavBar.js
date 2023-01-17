@@ -7,16 +7,16 @@ import navIcon3 from '../assets/img/nav-icon3.svg';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 
 export const NavBar = () => {
-const {activeLink, setActiveLink } = useState('home');
-const {scrolled, seSrcolled } = useState(false);
+const[activeLink, setActiveLink ] = useState('home');
+const [scrolled, setSrcolled ] = useState(false);
 
 useEffect(() => {
   const onScroll = () => {
     if  (window.scrollY > 50) {
-      seSrcolled(true);
+      setSrcolled(true);
     } else {
 
-      seSrcolled(false);
+      setSrcolled(false);
 
     }
   }
