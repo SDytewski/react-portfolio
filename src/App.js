@@ -6,12 +6,15 @@ import { Skills} from "./components/Skills";
 import { Banner } from "./components/Banner";
 import { Projects } from "./components/Projects";
 import Footer from './components/Footer';
+import Particle from './components/Particle';
 // import HomeScreen from './screens/HomeScreen'
 
 function App() {
+  
 
   return (
     <div className="App">
+      <Particle />
       <NavBar />
       <Banner/>
       <Skills />
@@ -20,5 +23,6 @@ function App() {
     </div>
   );
 }
+
 
 export default App;

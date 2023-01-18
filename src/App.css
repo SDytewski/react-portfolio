@@ -300,6 +300,7 @@ min-height: 150px;
   background-size: cover;
   color: white;
   padding: 20px;
+  z-index: 5;
 
 
  
@@ -426,3 +427,4 @@ transition: .5s;
   box-shadow: 0 0 30px #10c7ff;
   text-shadow: 0 0 30px #10c7ff;
 }
+
