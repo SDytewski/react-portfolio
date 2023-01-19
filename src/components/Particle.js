@@ -27,10 +27,15 @@ function Particle() {
             init={particlesInit}
             loaded={particlesLoaded}
             options={{
-                background: {
+                background:
+                
+                {
+                    
                     color: {
-                        value: "#0d47a1",
+                        value: "#000000",
                     },
+
+                    
                 },
                 fpsLimit: 120,
                 interactivity: {

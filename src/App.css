@@ -221,7 +221,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 
 .App {
-  background-color: #000000;
+  /* background-color: #000000; */
   font-family: 'Montserrat', sans-serif;
   font-size: 14px;
   line-height: 20px;
@@ -428,3 +428,13 @@ transition: .5s;
   text-shadow: 0 0 30px #10c7ff;
 }
 
+.project {
+z-index: 40;
+
+}
+
+#tsparticles {
+  position:fixed;
+z-index: -10
+
+}
