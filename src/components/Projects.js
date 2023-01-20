@@ -41,8 +41,14 @@ const projects = [
   
 
   return (
-    <section className="project pt-5 pb-5" id="projects">
-      <Container>
+    // <section className="project pt-5 pb-5" id="projects">
+   
+         <section className="project mt-5 pt-5" id="projects">
+        <div className="container">
+            <div className="row">
+                <div className="col-12">
+                <div className="project-bx wow zoomIn">
+
        
         <Row>
           <Col size={12}>
@@ -80,8 +86,11 @@ const projects = [
             </TrackVisibility> 
           </Col>
         </Row>
-      </Container>
+      </div>
       <img className="background-image-right"></img>
+      </div>
+      </div>
+      </div>
     </section>
   )
 }

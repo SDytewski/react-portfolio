@@ -428,8 +428,13 @@ transition: .5s;
   text-shadow: 0 0 30px #10c7ff;
 }
 
-.project {
-z-index: 40;
+.project-bx {
+/* z-index: 40; */
+background: #151515;
+  border-radius: 64px;
+  text-align: center;
+  padding: 60px 50px;
+  margin-top: -60px;
 
 }
 
