@@ -6,6 +6,7 @@ import { Skills} from "./components/Skills";
 import { Banner } from "./components/Banner";
 import { Projects } from "./components/Projects";
 import Footer from './components/Footer';
+import { Form } from "./components/Form";
 import Particle from './components/Particle';
 // import HomeScreen from './screens/HomeScreen'
 
@@ -19,6 +20,7 @@ function App() {
       <Banner/>
       <Skills />
       <Projects />
+      <Form />
       <Footer />
     </div>
   );
