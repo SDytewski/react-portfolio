@@ -73,9 +73,9 @@ export const Banner = () => {
                         <img src={headerImg} alt="Header Img"/>
                         </Col>
                 </Row>
-          {number}
+          {/* {number}
             <button onClick={increase}>Increase</button>
-            <button onClick={() => decrease()}>Decrease</button>
+            <button onClick={() => decrease()}>Decrease</button> */}
             
             </Container>
 
