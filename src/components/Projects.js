@@ -16,7 +16,7 @@ const projects = [
       _id: '1',
       name: 'MA Taylor',
       image: '/images/blondehero.jpg',
-      text: 'Wordpress, WooCommerce, Custom Theme, CSS, JavaScript,',
+      text: 'Wordpress, WooCommerce, Custom Theme, JavaScript, CSS',
       link: "http://mataylorshop.com/"
     },
   
@@ -25,16 +25,16 @@ const projects = [
       _id: '2',
       name: 'California Counties',
       image: '/images/california.jpeg',
-      text: 'JavaScript, Jquery, CSS, Wikipedia API',
+      text: 'JavaScript, CSS, Wikipedia API',
       link:"https://sdytewski.github.io/cali/index2.html"
     },
     {
   
       _id: '3',
-      name: 'Westwood Real Estate',
-      image: '/images/home.jpg',
-      text: 'Wordpress, Google Map API, CSS',
-      link: "https://westwoodrealhome.com/"
+      name: 'Steve Wave Music',
+      image: '/images/stevewave2.png',
+      text: 'React, Material UI, CSS',
+      link: "https://stevewavemusic.com/"
     },
   
   ];

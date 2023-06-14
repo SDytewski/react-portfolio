@@ -18,7 +18,7 @@ export const Form = () =>
 
     return(
         <div>
-            <div className="container">
+            <div className="container" id='contactForm'>
             <form onSubmit={sendEmail}>
                     <div className="row pt-5 mx-auto">
                         <div className="col-8 form-group mx-auto">

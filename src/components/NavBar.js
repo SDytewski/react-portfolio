@@ -61,7 +61,7 @@ const onUpdateActiveLink = (value) => {
               <a href="#"><img src={navIcon3} alt="" /></a>
             </div>
             {/* <HashLink to='#connect'> */}
-            <button className="vvd" onClick={() => console.log('connect')}><span>Let's Connect</span></button>
+            <button className="vvd" onClick={() => onUpdateActiveLink('contactForm')}><span>Let's Connect</span></button>
             {/* </Hashlink> */}
           </span>
           
