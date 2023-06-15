@@ -69,9 +69,10 @@ nav.navbar a.navbar-brand
   width: 9%;
 }
 
-nav.navbar .navbar-nav .nav-link.navbar-link {
+nav.navbar .navbar-nav .nav-link.navbar-link 
+{
   font-weight: 400;
-  color: #fff !important;
+  color: #fff;
   letter-spacing:  0.8px;
   padding: 0 25px;
   font-size: 18px;
@@ -80,7 +81,7 @@ nav.navbar .navbar-nav .nav-link.navbar-link {
 
 nav.navbar .navbar-nav a.nav-link.navbar-link:hover,
 nav.navbar .navbar-nav a.nav-link.navbar-link:active {
-  opacity: 1;
+  color: #707be0c7 !important;
 }
 
 span.navbar-text {

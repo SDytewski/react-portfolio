@@ -67,7 +67,7 @@ export const Banner = () => {
                         </span>
                         <h1>{`Hi! I'm Steve `} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "UI/UX developer", "Front-End Developer" ]'><span className="wrap">{text}</span></span></h1>
                   <p>I'm a web developer that specializes in UI/UX development. Experience includes working with projects with cross browser functionality for multiple devices. I have certifcation in Full Stack Web Development.</p>
-                  <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
+                  {/* <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button> */}
                         </Col>
                         <Col className="pt-5" xs={12} md={3} xl={3}>
                         <img src={headerImg} alt="Header Img"/>

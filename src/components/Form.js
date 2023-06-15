@@ -1,8 +1,8 @@
 import emailjs from "emailjs-com";
 import React from 'react';
+import {forwardRef} from "react";
 
-
-export const Form = () =>
+export const Form = (props, ref) =>
  {
     
     function sendEmail(e) {
