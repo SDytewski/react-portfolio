@@ -4,6 +4,7 @@ import navIcon1 from '../assets/img/nav-icon1.svg';
 import navIcon2 from '../assets/img/nav-icon2.svg';
 import navIcon3 from '../assets/img/nav-icon3.svg';
 import NavDropdown from 'react-bootstrap/NavDropdown';
+import { Link, Button, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
 
 export const NavBar = () => {
 const[activeLink, setActiveLink ] = useState('home');
@@ -23,6 +24,7 @@ useEffect(() => {
 
     return () => window.removeEventListener("scroll", onScroll)
 }, [])
+
 
 
 const onUpdateActiveLink = (value) => {
@@ -61,7 +63,7 @@ const onUpdateActiveLink = (value) => {
               <a href="#"><img src={navIcon3} alt="" /></a>
             </div>
             {/* <HashLink to='#connect'> */}
-            <button className="vvd" onClick={() => onUpdateActiveLink('contactForm')}><span>Let's Connect</span></button>
+            <button><span>Let's Connect</span></button>
             {/* </Hashlink> */}
           </span>
           

@@ -1,6 +1,7 @@
 import emailjs from "emailjs-com";
 import React from 'react';
 
+
 export const Form = () =>
  {
     
@@ -41,7 +42,8 @@ export const Form = () =>
             </div>
         </div>
     )
-}
+
+};
 
 
 export default Form;
