@@ -8,19 +8,23 @@ import { Projects } from "./components/Projects";
 import Footer from './components/Footer';
 import { Form } from "./components/Form";
 import Particle from './components/Particle';
+import React, { useEffect, useRef } from "react";
+
+
 // import HomeScreen from './screens/HomeScreen'
 
+
 function App() {
-  
+  const formRef = useRef(null);
 
   return (
     <div className="App">
       <Particle />
       <NavBar />
-      <Banner/>
+      <Banner formRef={formRef}/>
       <Skills />
       <Projects />
-      <Form />
+      <Form ref={formRef} />
       <Footer />
     </div>
   );

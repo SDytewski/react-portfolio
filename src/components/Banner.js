@@ -2,10 +2,12 @@ import {useState, useEffect} from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { ArrowRightCircle } from "react-bootstrap-icons";
 import headerImg from "../assets/img/header20.png"
+import React from "react";
 
 
 
-export const Banner = () => {
+
+export const Banner = ({ formRef }) => {
     const [loopNum, setLoopNum] = useState(0);
     const [isDeleting, setIsDeleting] = useState(false);
     const [text, setText] = useState('');
@@ -14,6 +16,7 @@ export const Banner = () => {
     const toRotate = [  "Web Developer", "UI/UX developer", "Front-End Developer" ];
     const period = 2000;
     const [number, setNumber] = useState(0);
+    
     
     useEffect(() => {
         let ticker = setInterval(() => {
@@ -67,8 +70,8 @@ export const Banner = () => {
                         </span>
                         <h1>{`Hi! I'm Steve `} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "UI/UX developer", "Front-End Developer" ]'><span className="wrap">{text}</span></span></h1>
                   <p>I'm a web developer that specializes in UI/UX development. Experience includes working with projects with cross browser functionality for multiple devices. I have certifcation in Full Stack Web Development.</p>
-                  {/* <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button> */}
-                        </Col>
+                  <button onClick={() => { formRef.current && formRef.current.scrollIntoView({ behavior: "smooth" }); }}>Let’s Connect <ArrowRightCircle size={25} /></button>
+                        </Col> 
                         <Col className="pt-5" xs={12} md={3} xl={3}>
                         <img src={headerImg} alt="Header Img"/>
                         </Col>
@@ -82,4 +85,6 @@ export const Banner = () => {
         </section>
     )
 
-}
+};
+
+export default Banner;

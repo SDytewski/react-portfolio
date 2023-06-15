@@ -1,8 +1,10 @@
 import emailjs from "emailjs-com";
-import React from 'react';
-import {forwardRef} from "react";
+// import React from 'react';
+import React, { forwardRef } from "react";
 
-export const Form = (props, ref) =>
+
+
+export const Form = forwardRef((props, ref) =>
  {
     
     function sendEmail(e) {
@@ -18,7 +20,7 @@ export const Form = (props, ref) =>
     }
 
     return(
-        <div>
+        <div ref={ref}>
             <div className="container" id='contact'>
             <form onSubmit={sendEmail}>
                     <div className="row pt-5 mx-auto">
@@ -43,7 +45,7 @@ export const Form = (props, ref) =>
         </div>
     )
 
-};
+});
 
 
 export default Form;
