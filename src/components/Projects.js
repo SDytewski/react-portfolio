@@ -17,7 +17,8 @@ const projects = [
       name: 'MA Taylor',
       image: '/images/blondehero.jpg',
       text: 'Wordpress, WooCommerce, Custom Theme, JavaScript, CSS',
-      link: "http://mataylorshop.com/"
+      link: "http://mataylorshop.com/",
+      git: "https://github.com/SDytewski/customtheme"
     },
   
     {
@@ -26,7 +27,8 @@ const projects = [
       name: 'California Counties',
       image: '/images/california.jpeg',
       text: 'JavaScript, CSS, Wikipedia API',
-      link:"https://sdytewski.github.io/cali/index2.html"
+      link:"https://sdytewski.github.io/cali/index2.html",
+      git: "https://github.com/SDytewski/cali"
     },
     {
   
@@ -34,7 +36,8 @@ const projects = [
       name: 'Steve Wave Music',
       image: '/images/stevewave2.png',
       text: 'React, Material UI, CSS',
-      link: "https://stevewavemusic.com/"
+      link: "https://stevewavemusic.com/",
+      git: "https://github.com/SDytewski/stevewave"
     },
   
   ];
