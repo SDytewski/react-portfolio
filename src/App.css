@@ -466,6 +466,9 @@ a {
   color:#fff;
 }
 
+
+/* Misc */
+
 .navbar:before {
   content: '';
   position: absolute;
@@ -492,8 +495,8 @@ a {
   text-shadow: 0 0 30px #10c7ff;
 } */
 
-.proj-txtx {
-  min-height: 93px;
+#something {
+  min-height: 293px;
 }
 
 #tsparticles {

@@ -53,7 +53,7 @@ const onUpdateActiveLink = (value) => {
             {/* <Nav.Link href="#portfolio.html">Portfolio</Nav.Link> */}
             {/* <Nav.Link href="#contact.html">Contact</Nav.Link> */}
           
-            <Nav.Link href="https://github.com/SDytewski?tab=repositories" className={activeLink === 'GitHub' ? 'active navbar-link' : 'navbar-link' } onClick={() => onUpdateActiveLink('home')}>Github</Nav.Link>
+            <Nav.Link href="https://github.com/SDytewski?tab=repositories" target="_blank" className={activeLink === 'GitHub' ? 'active navbar-link' : 'navbar-link' } onClick={() => onUpdateActiveLink('home')}>Github</Nav.Link>
             {/* <Nav.Link href="https://www.linkedin.com/in/steven-dytewski/" target="_blank">LinkedIn</Nav.Link> */}
             {/* <Nav.Link href="https://github.com/SDytewski?tab=repositories" target="_blank">Github</Nav.Link> */}
            
@@ -61,9 +61,9 @@ const onUpdateActiveLink = (value) => {
           <span className="navbar-text">
 
             <div className="social-icon">
-              <a href="https://www.linkedin.com/in/steven-dytewski/"><img src={navIcon1} alt="" /></a>
-              <a href="#"><img src={navIcon2} alt="" /></a>
-              <a href="#"><img src={navIcon3} alt="" /></a>
+              <a href="https://www.linkedin.com/in/steven-dytewski/" target="_blank"><img src={navIcon1} alt="" /></a>
+              <a href="https://www.facebook.com/steve.dytewski/" target="_blank"><img src={navIcon2} alt="" /></a>
+              <a href="https://www.instagram.com/stevewave80/" target="_blank"><img src={navIcon3} alt="" /></a>
             </div>
             {/* <HashLink to='#connect'> */}
             {/* <Button><span>Let's Connect</span></Button> */}
