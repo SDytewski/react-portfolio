@@ -161,7 +161,7 @@ span.navbar-text {
   z-index: -1;
   transition: 0.3s ease-in-out;
 }
-#contact:hover {
+/* #contact:hover {
   color: #121212 !important;
 }
 #contact :hover::before {
@@ -169,7 +169,7 @@ span.navbar-text {
 	width: 100%;
 	height: 100%;
 	position: absolute;
-}
+} */
 nav.navbar .navbar-toggler:active,
 nav.navbar .navbar-toggler:focus {
 	outline: none;
