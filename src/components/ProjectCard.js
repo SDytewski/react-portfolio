@@ -5,10 +5,10 @@ export const ProjectCard = ({ name, text, image, link, git }) => {
     <Col size={12} sm={6} md={4}>
       <div className="proj-imgbx">
       <a href={link} target="_blank"><img className="proj-pic" src={image} /> </a>
-        <div id="something"className="proj-txtx pt-3">
+        <div className="proj-txtx pt-3">
           <h4>{name}</h4>
           {/* <span>{description}</span> */}
-          <span>{text}</span>
+          <span id="proj-txt">{text}</span>
         </div>
         <a href={git} target="_blank">Github</a>
       </div>

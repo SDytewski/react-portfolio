@@ -458,7 +458,7 @@ background: #151515;
   letter-spacing: 0.8px;
   line-height: 1.5em;
   margin: 14px 0 75px 0;
-}
+  }
 
 
 a {
@@ -496,11 +496,12 @@ a {
   color: #10c7ff;
   box-shadow: 0 0 80px #10c7ff;
   text-shadow: 0 0 30px #10c7ff;
-} */
+} 
 
 .proj-txtx {
-  min-height: 93px !;
+  min-height: 94x;
 }
+
 
 #tsparticles {
   position:fixed;
