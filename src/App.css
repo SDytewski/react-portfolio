@@ -467,7 +467,6 @@ a {
 }
 
 
-/* Misc */
 
 .navbar:before {
   content: '';
@@ -485,8 +484,12 @@ a {
 
 .navbar:before {
   transform: scale(1.1);
-  box-shadow: 0 0 30px #10c7ff;
+  box-shadow: 0 0 60px #10c7ff;
   color: #fff;
+  border: 2px solid rgb(79, 212, 230);
+  border-top: rgb(157, 181, 197) 1px solid;
+  background-color: rgb(22, 25, 26);
+  
 }
 
 .navbar:hover {
@@ -495,8 +498,8 @@ a {
   text-shadow: 0 0 30px #10c7ff;
 } */
 
-#something {
-  min-height: 293px;
+.proj-txtx {
+  min-height: 93px !;
 }
 
 #tsparticles {
