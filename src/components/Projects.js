@@ -16,7 +16,7 @@ const projects = [
       _id: '1',
       name: 'MA Taylor',
       image: '/images/blondehero.jpg',
-      text: 'Wordpress, WooCommerce, Custom Theme, JavaScript, CSS',
+      text: 'Wordpress, WooCommerce, JavaScript, CSS',
       link: "http://mataylorshop.com/",
       git: "https://github.com/SDytewski/customtheme"
     },

@@ -5,8 +5,6 @@ import headerImg from "../assets/img/header20.png"
 import React from "react";
 
 
-
-
 export const Banner = ({ formRef }) => {
     const [loopNum, setLoopNum] = useState(0);
     const [isDeleting, setIsDeleting] = useState(false);
@@ -68,8 +66,8 @@ export const Banner = ({ formRef }) => {
                         <span className="tagline">
                             Steven Dytewski
                         </span>
-                        <h1>{`Hi! I'm Steve `} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "UI/UX developer", "Front-End Developer" ]'><span className="wrap">{text}</span></span></h1>
-                  <p>I'm a web developer that specializes in UI/UX development. Experience includes working with projects with cross browser functionality for multiple devices. I have certifcation in Full Stack Web Development.</p>
+                        <h1>{`Hi! I'm a `} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "UI/UX developer", "Front-End Developer" ]'><span className="wrap">{text}</span></span></h1>
+                  <p>I specialize in UI/UX development. Experience includes projects with cross browser functionality for multiple devices. Certified in Full Stack Web Development.</p>
                   <button onClick={() => { formRef.current && formRef.current.scrollIntoView({ behavior: "smooth" }); }}>Let’s Connect <ArrowRightCircle size={25} /></button>
                         </Col> 
                         <Col className="pt-5" xs={12} md={3} xl={3}>

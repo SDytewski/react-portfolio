@@ -62,8 +62,8 @@ const onUpdateActiveLink = (value) => {
 
             <div className="social-icon">
               <a href="https://www.linkedin.com/in/steven-dytewski/" target="_blank"><img src={navIcon1} alt="" /></a>
-              <a href="https://www.facebook.com/steve.dytewski/" target="_blank"><img src={navIcon2} alt="" /></a>
-              <a href="https://www.instagram.com/stevewave80/" ><img src={navIcon3} alt="" /></a>
+              {/* <a href="https://www.facebook.com/steve.dytewski/" target="_blank"><img src={navIcon2} alt="" /></a>
+              <a href="https://www.instagram.com/stevewave80/" ><img src={navIcon3} alt="" /></a> */}
             </div>
             {/* <HashLink to='#connect'> */}
             {/* <Button><span>Let's Connect</span></Button> */}

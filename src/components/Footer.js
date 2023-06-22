@@ -15,13 +15,13 @@ export const Footer = () => {
             <div className="social-icon p-3">
 
             <a href="https://www.linkedin.com/in/steven-dytewski/" target="_blank"><img src={navIcon1} alt="" /></a>
-              <a href="https://www.facebook.com/steve.dytewski/" target="_blank"><img src={navIcon2} alt="" /></a>
-              <a href="https://www.instagram.com/stevewave80/" target="_blank"><img src={navIcon3} alt="" /></a>
+              {/* <a href="https://www.facebook.com/steve.dytewski/" target="_blank"><img src={navIcon2} alt="" /></a>
+              <a href="https://www.instagram.com/stevewave80/" target="_blank"><img src={navIcon3} alt="" /></a> */}
               {/* <a href="#"><img src={navIcon1} alt="Icon" /></a>
               <a href="#"><img src={navIcon2} alt="Icon" /></a>
               <a href="#"><img src={navIcon3} alt="Icon" /></a> */}
             </div>
-            <p className="text-center pt-3 pb-3">Copyright 2023. All Rights Reserved</p>
+            <p className="text-center pt-3 pb-3">Steven Dytewski Copyright 2023. All Rights Reserved</p>
           </Col>
         </Row>
       </Container>
