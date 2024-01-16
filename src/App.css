@@ -81,8 +81,12 @@ nav.navbar .navbar-nav .nav-link.navbar-link
 
 nav.navbar .navbar-nav a.nav-link.navbar-link:hover,
 nav.navbar .navbar-nav a.nav-link.navbar-link:active {
-  color: #707be0c7 !important;
+  color: #00d9ffc7 !important;
+  text-shadow: 0 0 10px rgb(255, 255, 255);
+  
 }
+
+/* #00d9ffc7 */
 
 span.navbar-text {
   display: flex;
