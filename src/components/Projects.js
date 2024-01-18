@@ -20,23 +20,21 @@ export const Projects = () => {
       link: "https://sdytewski.github.io/task/",
       git: "https://github.com/SDytewski/task"
     },
-
-    {
+     {
 
       _id: '2',
-      name: 'California Counties',
-      image: '/images/california.jpeg',
-      text: 'JavaScript, CSS, Wikipedia API',
-      link: "https://sdytewski.github.io/cali/index2.html",
-      git: "https://github.com/SDytewski/cali"
+      name: 'Movie List',
+      image: '/images/movielist2.png',
+      text: 'React, Tailwind, CSS, Firebase, OMDB API',
+      link: "https://movie-favorites-d8693.web.app/",
+      git: "https://github.com/SDytewski/search"
     },
-
     {
 
       _id: '3',
       name: 'Steve Wave Music',
       image: '/images/stevewave2.png',
-      text: 'React, Material UI, CSS',
+      text: 'React, Material UI, CSS, Spotify API',
       link: "https://stevewavemusic.com/",
       git: "https://github.com/SDytewski/stevewave"
     },
@@ -44,11 +42,11 @@ export const Projects = () => {
     {
 
       _id: '4',
-      name: 'MA Taylor',
-      image: '/images/blondehero2.png',
-      text: 'Wordpress, WooCommerce, JavaScript, CSS',
-      link: "http://mataylorshop.com/",
-      git: "https://github.com/SDytewski/customtheme"
+      name: 'California Counties',
+      image: '/images/california.jpeg',
+      text: 'JavaScript, CSS, Wikipedia API',
+      link: "https://sdytewski.github.io/cali/index2.html",
+      git: "https://github.com/SDytewski/cali"
     },
 
   ];
