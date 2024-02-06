@@ -295,13 +295,14 @@ min-height: 150px;
   padding: 30px 0 0 0; */
   background-image:
   linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.73)),
-  url('./assets/img/background24.jpg');
+  url('./assets/img/galaxy.jpg');
   
   background-size: cover;
-  color: white;
+  background-color: black !important;
+ 
   padding: 20px;
   z-index: 5;
-
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 
  
   /* background-size: 30%; */
@@ -316,6 +317,12 @@ min-height: 150px;
   
 }
 
+.imgOverlay {
+  width: 100%;
+  height: 130px;
+  padding: 5px;
+  background-color: rgba(18, 17, 17, 0.5);
+ }
 
 
 .banner .tagline {
@@ -337,7 +344,7 @@ min-height: 150px;
   display: block;
 }
 .banner p {
-  color: #f8f5f5;
+  color: #ffffff;
   font-size: 21px;
   letter-spacing: 0.8px;
   line-height: 1.5em;
@@ -349,9 +356,9 @@ min-height: 150px;
   border-color: #fff;
   font-weight: 700;
   font-size: 20px;
-  margin-top: 60px;
+  margin-top: 100px;
   letter-spacing: 0.8px;
-  display: flex;
+  display: block;
   align-items: center;
   padding: 7px;
 }
@@ -475,5 +482,11 @@ z-index: -10
 @media only screen and (max-width: 890px) {
   .banner img{
     width: 80%;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .banner button{
+    margin-top: 190px;
   }
 }
