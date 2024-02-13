@@ -21,11 +21,11 @@ function App() {
   return (
     <div className="App">
       <Particle />
-      <About />
       <NavBar />
       <Banner formRef={formRef}/>
       <Skills />
       <Projects />
+      <About />
       <Form ref={formRef} />
       <Footer />
     </div>

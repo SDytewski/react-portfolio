@@ -66,7 +66,7 @@ export const Banner = ({ formRef }) => {
             <span className="tagline">
               Steven Dytewski
             </span>
-            <h1>{`Hi! I'm a `} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "UI/UX developer", "Front-End Developer" ]'><span className="wrap">{text}</span></span></h1>
+            <h1>{`Hi! I'm a `} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "UI/UX Developer", "Front-End Developer" ]'><span className="wrap">{text}</span></span></h1>
             <div class="imgOverlay">
               <p>I specialize in UI/UX Development and Software Testing. Experience includes projects with cross browser functionality for multiple devices. Certified in Full Stack Web Development.</p>
             </div>
