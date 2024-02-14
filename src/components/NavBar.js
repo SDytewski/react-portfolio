@@ -51,6 +51,7 @@ const [expanded, setExpanded] = useState(false);
             <Nav.Link href="#home" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link' } onClick={() => {setExpanded(false); onUpdateActiveLink('home')}}>HOME</Nav.Link>
             <Nav.Link href="#skills" className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link' } onClick={() => {setExpanded(false); onUpdateActiveLink('skills')}}>SKILLS</Nav.Link>
             <Nav.Link href="#projects" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link' } onClick={() => {setExpanded(false); onUpdateActiveLink('projects')}}>PROJECTS</Nav.Link>
+            <Nav.Link href="#about" className={activeLink === 'about' ? 'active navbar-link' : 'navbar-link' } onClick={() => {setExpanded(false); onUpdateActiveLink('about')}}>ABOUT</Nav.Link>
             <Nav.Link href="#contact" className={activeLink === 'contact' ? 'active navbar-link' : 'navbar-link' } onClick={() => {setExpanded(false); onUpdateActiveLink('contact')}}>CONTACT</Nav.Link>
             {/* <Nav.Link href="#portfolio.html">Portfolio</Nav.Link> */}
             {/* <Nav.Link href="#contact.html">Contact</Nav.Link> */}

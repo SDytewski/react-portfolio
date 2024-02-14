@@ -289,14 +289,38 @@ min-height: 150px;
   z-index: -4;
 }
 
-
-.skill img {
-  width: 50%;
-  margin: 0 auto 15px auto;
-  /* border: 1px solid rgba(44, 186, 15, 0.05);
-  object-fit: cover; */
+.skill {
+  margin-top: 30px;
+  padding: 0 0 50px 0;
+  position: relative;
+  
 }
 
+
+.about-bx {
+  background: #151515;
+  border-radius: 64px;
+  text-align: center;
+  padding: 60px 50px;
+  margin-top: -60px;
+}
+
+
+
+#about {
+  width: 40%;
+  height: 50%;
+  margin: 0 auto 15px auto;
+  /* background: radial-gradient(circle at center, rgb(105, 160, 205), rgb(242, 10, 99) 84%);
+  filter: contrast(132%) saturate(180%); */
+  -moz-box-shadow: 0 0 5px #fff;
+-webkit-box-shadow: 0 0 5px #fff;
+box-shadow: 0px 0px 15px #fff;
+}
+
+/* #about > * {
+  filter: opacity(60%) saturate(0%) sepia(90%);
+} */
 
 
 /************ Banner Css ************/
