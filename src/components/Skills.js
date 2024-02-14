@@ -39,7 +39,9 @@ export const Skills = () => {
                         <p>Full-Stack Web Development with emphasis on Front-End</p>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
+                              <div className="about-img">
                                 <img src={meter1} alt="Image" />
+                                </div>
                                 <h5>React</h5>
                             </div>
                             <div className="item">

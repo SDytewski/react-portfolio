@@ -289,6 +289,16 @@ min-height: 150px;
   z-index: -4;
 }
 
+
+.skill img {
+  width: 50%;
+  margin: 0 auto 15px auto;
+  /* border: 1px solid rgba(44, 186, 15, 0.05);
+  object-fit: cover; */
+}
+
+
+
 /************ Banner Css ************/
 .banner {
   /* margin-top: 20px;
