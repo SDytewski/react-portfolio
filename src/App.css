@@ -313,9 +313,9 @@ min-height: 150px;
   margin: 0 auto 15px auto;
   /* background: radial-gradient(circle at center, rgb(105, 160, 205), rgb(242, 10, 99) 84%);
   filter: contrast(132%) saturate(180%); */
-  -moz-box-shadow: 0 0 5px #fff;
--webkit-box-shadow: 0 0 5px #fff;
-box-shadow: 0px 0px 15px #fff;
+  -moz-box-shadow: 0 0 2px #fff;
+-webkit-box-shadow: 0 0 3px #fff;
+box-shadow: 0px 0px 5px #fff;
 }
 
 /* #about > * {
