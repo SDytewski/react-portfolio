@@ -316,6 +316,8 @@ min-height: 150px;
   -moz-box-shadow: 0 0 2px #fff;
 -webkit-box-shadow: 0 0 3px #fff;
 box-shadow: 0px 0px 5px #fff;
+filter: brightness(86%)saturate(60%);
+
 }
 
 /* #about > * {
