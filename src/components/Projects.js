@@ -32,11 +32,11 @@ export const Projects = () => {
     {
 
       _id: '3',
-      name: 'Steve Wave Music',
-      image: '/images/stevewave2.png',
-      text: 'React, Material UI, CSS, Spotify API',
-      link: "https://stevewavemusic.com/",
-      git: "https://github.com/SDytewski/stevewave"
+      name: 'Weather App',
+      image: '/images/weather2.png',
+      text: 'React, CSS, Open Weather API',
+      link: "https://sdytewski.github.io/weather-app/",
+      git: "https://github.com/SDytewski/weather-app"
     },
 
     {
